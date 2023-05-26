@@ -16,8 +16,15 @@ Now the boards appear in the IDE. You can also select clock speeds, [upload spee
 <img src="./docs/arduino/clock-source.png" alt="External Clock" width="550">
 
 32Mhz is twice as fast as a conventional arduino nano! Actually _even faster_ as many operations take less clock cycles than in the atmega328p. Check out some [benchmarks](https://github.com/dbuezas/lgt8fx/discussions/77)
+
+# Recommended read
+
+Tutorials and details about this board:
+[LGT8F328P - LQFP32 Boards • Wolles Elektronikkiste](https://wolles-elektronikkiste.de/en/lgt8f328p-lqfp32-boards)
+
 # Discussions, ideas, questions and show your project
-Explore the discussions: https://github.com/dbuezas/lgt8fx/discussions
+
+- Explore the discussions: https://github.com/dbuezas/lgt8fx/discussions
 
 # Features
 
@@ -42,6 +49,12 @@ Explore the discussions: https://github.com/dbuezas/lgt8fx/discussions
 - [x] [Support for interrupts on all timers and comparators](https://github.com/dbuezas/lgt8fx/pull/40) (by [#jayzakk](https://github.com/jayzakk))
 - [x] [Arduino EEPROM API](https://github.com/dbuezas/lgt8fx/pull/64) (by [#SuperUserNameMan](https://github.com/SuperUserNameMan)
 - [ ] Lock bits. It seems this micro controller doesn't have flash lock bits.
+
+# Timers
+This chip has more timers, each with more features than the atmega328p.
+Explore, configure and visualize timers for both atmega328p and lgt328p with this online tool [https://github.com/dbuezas/arduino-web-timers](https://github.com/dbuezas/arduino-web-timers)
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/777196/221049698-d2a51443-73c8-42d7-8e85-b46f25c42dc7.png">
+
 
 # Differences to original core [Larduino_HSP v3.6c](https://github.com/Edragon/LGT/tree/master/1-LGT8F328/SDK/Arduino/HSP/HSP%20Patch%20File/Larduino_HSP_3.6c/Larduino_HSP_v3.6c)
 
@@ -71,10 +84,9 @@ Explore the discussions: https://github.com/dbuezas/lgt8fx/discussions
 #### [Pro Mini Style SSOP20](../../wiki/Pro-Mini-Style---SSOP20)
 
 <img src="./docs/boards/ssop20.jpg" alt="Pro Mini ssop20" width="200"> <img src="./docs/boards/ssop20_back.jpg" alt="Pro Mini ssop20" width="200"> <img src="./docs/boards/ssop20.png" alt="Pro Mini ssop20" width="200">
-![image](https://user-images.githubusercontent.com/777196/222880206-57e643d7-d955-4025-9e0d-541b5e960230.png)
 
-Pinout by [Electrogate](https://blog.eletrogate.com/tutorial-pro-mini-evb-lgt8f328p-arduino-ide/)
-
+<img src="./docs/boards/lgt8f328p_pro_mini_ssop20_pinout.png" alt="Nano style" width="800">
+Pinout by [wollewald](https://github.com/wollewald)
 
 ## *-->LGT8F328P-LQFP32*
 
@@ -85,14 +97,19 @@ Pinout by [Electrogate](https://blog.eletrogate.com/tutorial-pro-mini-evb-lgt8f3
 #### Pro Mini style
 
 <img src="./docs/boards/pro_mini_LQFP32.png" alt="Pro Mini style" width="200">
-(
+<img src="./docs/boards/lgt8f328p_pro_mini_qfp32l_pinout.png" alt="Nano style" width="800">
+
+Pinout by [wollewald](https://github.com/wollewald) Visit his Electronic projects blog here https://wolles-elektronikkiste.de/en/
 
 #### [Nano Style](../../wiki/Nano-Style)
 
 <img src="./docs/boards/nano.jpg" alt="Nano style" width="200"> <img src="./docs/boards/nano_back.jpg" alt="Nano style" width="200">
 
 <img src="./docs/boards/nano_LQFP32.png" alt="Nano style" width="200">
-<img src="./docs/boards/pinouts/svg/LGT8F328P-nano.png" alt="Nano style" width="200">
+<img src="./docs/boards/lgt8f328p_nano_qfp32l_pinout.png" alt="Nano style" width="800">
+
+Pinout by [wollewald](https://github.com/wollewald)
+
 Like this pinout?
 
 [Create](./docs/boards/pinouts) more pinouts for the other boards!
@@ -114,6 +131,12 @@ Like this pinout?
 <img src="./docs/boards/larduino_uno-front.jpg" alt="Larduino Uno style" width="200"> <img src="./docs/boards/larduino_uno-back.jpg" alt="Larduino Uno style" width="210">
 
 ## *-->LGT8F328P-LQFP48*
+
+#### Nano Style
+
+<img src="https://user-images.githubusercontent.com/777196/232343332-d8d93c6b-80b1-4865-9910-bfa864a91081.png" alt="Nano style" width="200">
+<img src="./docs/boards/lgt8f328p_nano_qfp48l_pinout.png" alt="Nano style" width="800">
+Pinout by [wollewald](https://github.com/wollewald)
 
 #### Uno Style
 
@@ -165,7 +188,7 @@ https://tooomm.github.io/github-release-stats/?username=dbuezas&repository=lgt8f
 
 # Thanks
 
-- [#Larduino_HSP](https://github.com/LGTMCU/Larduino_HSP) for doing 99.9999% of the work
+- [#Larduino_HSP](https://github.com/LGTMCU/Larduino_HSP) for doing 90% of the work
 - [#RalphBacon](https://github.com/RalphBacon) introducing most of us to the board
 - [#dcfusor](https://github.com/dcfusor) for help with fast io backporting
 - [#HI-SEBA](https://github.com/HI-SEBA) for help with software serial
@@ -174,5 +197,6 @@ https://tooomm.github.io/github-release-stats/?username=dbuezas&repository=lgt8f
 - [#jg1uaa](https://github.com/jg1uaa) for the updated Software Serial without timing tables and missing methods
 - [#LaZsolt](https://github.com/LaZsolt) for adding SSOP20 lgt8f328p support and accurate delayMicroseconds
 - [#jayzakk](https://github.com/jayzakk) for fixing the ADC prescaler for faster analog reads
+- [#wollewald](https://github.com/wollewald) for all the pinout diagrms 
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/dbuezas)

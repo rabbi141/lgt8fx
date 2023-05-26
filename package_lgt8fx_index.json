@@ -11,6 +11,126 @@
         {
           "name": "LGT8fx Boards",
           "architecture": "avr",
+          "version": "2.0.4",
+          "category": "lgt8fx",
+          "url": "https://github.com/dbuezas/lgt8fx/releases/download/v2.0.4/lgt8f-2.0.4.zip",
+          "archiveFileName": "lgt8f-2.0.4.zip",
+          "checksum": "SHA-256:2865a15714750c25459761379c10f1f23b7a9e28bbea1837d06988ce2b839821",
+          "size": "659537",
+          "help": {
+            "online": "https://github.com/dbuezas/LGT8fx/issues"
+          },
+          "boards": [
+            {
+              "name": "LGT8F328P-LQFP32 MiniEVB"
+            },
+            {
+              "name": "LGT8F328P-LQFP48 MiniEVB"
+            },
+            {
+              "name": "LGT8F328P-LQFP32 wemos-TTGO-XI"
+            },
+            {
+              "name": "LGT8F328P-SSOP20"
+            },
+            {
+              "name": "LGT8F328D-LQFP32"
+            }
+          ]
+        },
+        {
+          "name": "LGT8fx Boards",
+          "architecture": "avr",
+          "version": "2.0.3",
+          "category": "lgt8fx",
+          "url": "https://github.com/dbuezas/lgt8fx/releases/download/v2.0.3/lgt8f-2.0.3.zip",
+          "archiveFileName": "lgt8f-2.0.3.zip",
+          "checksum": "SHA-256:0ac2a3bfb76d6f1bd02c69b1d55932d820ef3444d3dc196e470c24119b715d35",
+          "size": "628440",
+          "help": {
+            "online": "https://github.com/dbuezas/LGT8fx/issues"
+          },
+          "boards": [
+            {
+              "name": "LGT8F328P-LQFP32 MiniEVB"
+            },
+            {
+              "name": "LGT8F328P-LQFP48 MiniEVB"
+            },
+            {
+              "name": "LGT8F328P-LQFP32 wemos-TTGO-XI"
+            },
+            {
+              "name": "LGT8F328P-SSOP20"
+            },
+            {
+              "name": "LGT8F328D-LQFP32"
+            }
+          ]
+        },
+        {
+          "name": "LGT8fx Boards",
+          "architecture": "avr",
+          "version": "2.0.2",
+          "category": "lgt8fx",
+          "url": "https://github.com/dbuezas/lgt8fx/releases/download/v2.0.2/lgt8f-2.0.2.zip",
+          "archiveFileName": "lgt8f-2.0.2.zip",
+          "checksum": "SHA-256:424738d873d41ac6734109732909ca700a12e9e6feb134e6d05901d6493b8be3",
+          "size": "629672",
+          "help": {
+            "online": "https://github.com/dbuezas/LGT8fx/issues"
+          },
+          "boards": [
+            {
+              "name": "LGT8F328P-LQFP32 MiniEVB"
+            },
+            {
+              "name": "LGT8F328P-LQFP48 MiniEVB"
+            },
+            {
+              "name": "LGT8F328P-LQFP32 wemos-TTGO-XI"
+            },
+            {
+              "name": "LGT8F328P-SSOP20"
+            },
+            {
+              "name": "LGT8F328D-LQFP32"
+            }
+          ]
+        },
+        {
+          "name": "LGT8fx Boards",
+          "architecture": "avr",
+          "version": "2.0.1",
+          "category": "lgt8fx",
+          "url": "https://github.com/dbuezas/lgt8fx/releases/download/v2.0.1/lgt8f-2.0.1.zip",
+          "archiveFileName": "lgt8f-2.0.1.zip",
+          "checksum": "SHA-256:ad3d8242882ee04b5351011144143c9fdd2d3e128169f58b31990400e29e55fd",
+          "size": "629697",
+          "help": {
+            "online": "https://github.com/dbuezas/LGT8fx/issues"
+          },
+          "boards": [
+            {
+              "name": "LGT8F328P-LQFP32 MiniEVB"
+            },
+            {
+              "name": "LGT8F328P-LQFP48 MiniEVB"
+            },
+            {
+              "name": "LGT8F328P-LQFP32 wemos-TTGO-XI"
+            },
+            {
+              "name": "LGT8F328P-SSOP20"
+            },
+            {
+              "name": "LGT8F328D-LQFP32"
+            }
+          ]
+        },
+        {
+          "name": "LGT8fx Boards",
+          "architecture": "avr",
           "version": "2.0.0",
           "category": "lgt8fx",
           "url": "https://github.com/dbuezas/lgt8fx/releases/download/v2.0.0/lgt8f-2.0.0.zip",
